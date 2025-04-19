@@ -1,6 +1,6 @@
 import requests,re
 
-url = 'http://10.10.123.43/login'
+url = ''                  #input login page url
 regex = r'(\d+\s*[\+\-\*\/]\s*\d+)\s*\=\s*\?'
 
 with open('usernames.txt','r') as file:
